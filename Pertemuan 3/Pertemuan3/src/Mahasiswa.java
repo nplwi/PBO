@@ -44,7 +44,7 @@ public class Mahasiswa {
     public Kendaraan getKendaraan() { return kendaraan; }
     public void setKendaraan(Kendaraan kendaraan) { this.kendaraan = kendaraan; }
 
-    // Method untuk menambahkan mata kuliah [cite: 26, 27]
+    // Method untuk menambahkan mata kuliah
     public void addMatKul(MataKuliah newMatKul) {
         listMatKul.add(newMatKul);
     }
@@ -70,7 +70,7 @@ public class Mahasiswa {
         System.out.println("Prodi: " + prodi);
     }
 
-    // Method untuk menampilkan detail komplit mahasiswa beserta relasinya [cite: 26, 27]
+    // Method untuk menampilkan detail komplit mahasiswa beserta relasinya
     public void printDetailMhs() {
         System.out.println("========== DETAIL MAHASISWA ==========");
         System.out.println("NIM   : " + nim);

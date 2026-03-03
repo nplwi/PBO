@@ -6,7 +6,7 @@
 
 public class MMahasiswa {
     public static void main(String[] args) {
-        // Pembuatan objek dari masing-masing kelas [cite: 28, 30]
+        // Pembuatan objek dari masing-masing kelas
         MataKuliah PBO = new MataKuliah("PBO", "Pemrograman Berorientasi Objek", 3);
         MataKuliah MBD = new MataKuliah("MBD", "Manajemen Basis Data", 3);
         MataKuliah GTI = new MataKuliah("GTI", "Grafik dan Teknik Interaktif", 3);
@@ -16,7 +16,7 @@ public class MMahasiswa {
         Dosen D1 = new Dosen("123456789", "Andi Surandi", "Informatika");
         Kendaraan K1 = new Kendaraan("H1234AB", "motor");
 
-        // Merelasikan objek [cite: 29, 30]
+        // Merelasikan objek
         M1.setDosenWali(D1);
         M1.setKendaraan(K1);
         M1.addMatKul(PBO);
@@ -24,7 +24,7 @@ public class MMahasiswa {
         M1.addMatKul(GTI);
         M1.addMatKul(JARKOM);
 
-        // Memanggil method untuk cetak detail dan hitung jumlah [cite: 29, 30]
+        // Memanggil method untuk cetak detail dan hitung jumlah
         M1.printDetailMhs();
         System.out.println("Jumlah Mata Kuliah = " + M1.getJumlahMatKul());
         System.out.println("Jumlah SKS Mata Kuliah = " + M1.getJumlahSKS());

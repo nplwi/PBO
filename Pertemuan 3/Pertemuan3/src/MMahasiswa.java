@@ -13,7 +13,7 @@ public class MMahasiswa {
         MataKuliah JARKOM = new MataKuliah("JARKOM", "Jaringan Komputer", 3);
         
         Mahasiswa M1 = new Mahasiswa("24060124130075", "Naufal Dwi Yusmawan", "Informatika");
-        Dosen D1 = new Dosen("123456789", "Andi Surandi", "Informatika");
+        Dosen D1 = new Dosen("123456789", "Andi Surandi", "Informatika", null, 0, null);
         Kendaraan K1 = new Kendaraan("H1234AB", "motor");
 
         // Merelasikan objek
